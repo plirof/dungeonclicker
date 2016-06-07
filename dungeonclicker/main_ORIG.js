@@ -192,41 +192,7 @@ function saveGame() {
 	$.jStorage.set("dC", dC);
 	toLog("<span class='unimportant'>Game saved.</span>");
 }
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-function savegame_export() {
-	//create_JSON_for_export();
-	savegame_JSON=JSON.stringify($.jStorage.get("dC"));
-	document.getElementById("txt_savegame").value=savegame_JSON;
-}
 
-function break_JSON_for_import() {
-//we assume load data are stored in localStorage.Idlecraft_save
-	//document.getElementById("txt_savegame").innerHTML=localStorage.Idlecraft_save;
-	savegame_JSON=document.getElementById("txt_savegame").value;
-
-	var parsed_json = JSON.parse(savegame_JSON);
-	//alert('temp_json.balance= ' + parsed_json["balance"] );
-	dC["coin"]=parsed_json["coin"];
-	dC["panels"]=parsed_json["panels"];
-	dC["buildings"]=parsed_json["buildings"];
-	dC["artifacts"]=parsed_json["artifacts"];
-	dC["options"]=parsed_json["options"];
-	//dC["Adventure"]=parsed_json["Adventure"];
-
-	
-	//alert('JSON.parse(savegame_JSON) = ' +temp );
-}
-
-function loadgame_import() {
-
-	savegame_JSON=document.getElementById("txt_savegame").value;
-	var parsed_json = JSON.parse(savegame_JSON);
-	break_JSON_for_import();
-	//loaded_dc=parsed_json["dC"];
-	//$.jStorage.set("dC", loaded_dc);
-	
-}
-// -------------------------------------------------------------------------------------------------
 function reconfigureGoldGUI() {
 	// Text size
 	var coin = dC["coin"] + "";
