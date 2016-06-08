@@ -75,7 +75,7 @@ function initArtifactsPanel() {
 		markup += '<div class="element artifact transparent unavailable not-bought" data-key="' + artifactList[i].key + '">';
 		markup += "<div class='fg'></div>";
 		markup += "<div class='element-light'></div>";
-		markup += "<div class='element-name'>" + artifactList[i].key + "</div>";
+		markup += "<div class='element-name'>" + translate(artifactList[i].key) + "</div>";
 		markup += "<div class='element-price'>0</div>";
 		markup += "<div class='element-quantity'></div></div>";
 		$("#artifact-list").append(markup);
