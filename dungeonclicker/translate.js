@@ -1,6 +1,7 @@
 function translate(word) {
 
 var translation_table=new Map();
+var enable_translation=true;
 
 //building names
 translation_table.set("Tavern",		"Ταβέρνα");
@@ -86,7 +87,7 @@ translation_table.set("Ring of Luck", "");
 
 var translated_text=translation_table.get(word);
 
-if(!translated_text) return word;
+if(!translated_text || !enable_translation ) return word;
 return translated_text;
 
 }
