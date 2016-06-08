@@ -1,7 +1,8 @@
 //Translate 
 //v003 -20160608
 //
-
+var enable_translation =true;
+ 
 function translate(word) {
 
 var translation_table=new Map();
@@ -428,7 +429,7 @@ translation_table.set("sister","αδελφή");
 translation_table.set("cousin","ξάδελφος");
 translation_table.set("uncle","θείος");
 translation_table.set("aunt","θεία");
-translation_table.set("twin","δίδιμος");
+translation_table.set("twin","δίδυμος");
 
 //posesives = new Array();
 translation_table.set("his","");
@@ -444,7 +445,7 @@ translation_table.set("a fighting","πάλης");
 
 var translated_text=translation_table.get(word);
 
-if(!translated_text) return word;
+if(!translated_text || !enable_translation ) return word;
 return translated_text;
 
 }
