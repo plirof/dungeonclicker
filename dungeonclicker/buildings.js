@@ -51,7 +51,7 @@ function initBuildingsPanel() {
 		markup += '<div class="element building transparent unavailable" data-key="' + key + '">';
 		markup += "<div class='fg'></div>";
 		markup += "<div class='element-light'></div>";
-		markup += "<div class='element-name'>" + key + "</div>";
+		markup += "<div class='element-name'>" + translate(key) + "</div>";
 		markup += "<div class='element-price'>0</div>";
 		markup += "<div class='element-quantity'>0</div></div>";
 		$("#building-list").append(markup);
