@@ -1,9 +1,14 @@
 //Translate 
+//v006 -20170212 object
 //v005 -20160608 object
 //v004 -20160608
 //v003 -20160608
 //
 var enable_translation=true;
+
+function t(word) {
+	return translate(word);
+}
 
 function translate(word) {
 
@@ -32,7 +37,7 @@ translation_table["Silver mine"]=		"Ορυχείο Ασημιού"   ;
 translation_table["Martial training hall"]=		"Martial training hall"   ;
 translation_table["Coliseum"]=		"Coliseum"   ;
 translation_table["Gold mine"]=		"Χρυσορυχείο"   ;
-translation_table["Rogue academy"]="Rogue academy"   ;
+translation_table["Rogue academy"]="Ακαδημία κλεφτών"   ;
 translation_table["Airship dock"]=		"Airship dock"   ;
 translation_table["Gladiator arena"]="Αρένα μονομάχων"   ;
 translation_table["Arcane university"]=		"Πανεπιστήμιο μαγείας"   ;
@@ -112,7 +117,7 @@ translation_table["a lizardman"]=""   ;
 translation_table["a troglodyte"]=""   ;
 translation_table["a troll"]=""   ;
 translation_table["a werewolf"]="ένας λυκάνθρωπος"   ;
-translation_table["an orc"]=""   ;
+translation_table["an orc"]="ένα Ορκ"   ;
 translation_table["an owlbear"]=""   ;
 translation_table["an undead"]="έναν απέθαντο"   ;
 
@@ -132,7 +137,7 @@ translation_table["dark elves"]="σκοτεινά ξωτικά"   ;
 translation_table["gnolls"]=""   ;
 translation_table["goblins"]=""   ;
 translation_table["hobgoblins"]=""   ;
-translation_table["kobolds"]=""   ;
+translation_table["kobolds"]="κομπολντς"   ;
 translation_table["lizardmen"]="σαυράνθρωποι"   ;
 translation_table["orcs"]="όρκς"   ;
 translation_table["owlbears"]=""   ;
@@ -251,18 +256,18 @@ translation_table["ferret"]="κουνάβι"   ;
 translation_table["gopher"]="γεωμύξ"   ;
 translation_table["squirrel"]="σκίουρος"   ;
 translation_table["mole"]="τυφλοπόντικας"   ;
-translation_table["beaver"]=""   ;
+translation_table["beaver"]="κάστορας"   ;
 translation_table["chipmunk"]=""   ;
-translation_table["marmot"]=""   ;
+translation_table["marmot"]="μαρμότα"   ;
 translation_table["raccoon"]="ρακούν"   ;
 
 //fears = new Array(   ;
-translation_table["being eaten by"]=""   ;
-translation_table["being bitten by"]=""   ;
-translation_table["being killed by"]=""   ;
-translation_table["being licked by"]=""   ;
-translation_table["being alone with"]=""   ;
-translation_table["being watched by"]=""   ;
+translation_table["being eaten by"]="να φαγωθείς από"   ;
+translation_table["being bitten by"]="να δαγκωθείς από"   ;
+translation_table["being killed by"]="να σκοτωθείς από"   ;
+translation_table["being licked by"]="να σε γλύψει"   ;
+translation_table["being alone with"]="να μένεις μόνος με"   ;
+translation_table["being watched by"]="να σε παρακολουουν"   ;
 
 //pets = new Array(   ;
 translation_table["cat"]="γάτα"   ;
@@ -313,7 +318,7 @@ translation_table["barn"]=""   ;
 //adventurers = new Array(   ;
 translation_table["barbarian"]="Βάρβαρος"   ;
 translation_table["bard"]="Βάρδος"   ;
-translation_table["cavalier"]=""   ;
+translation_table["cavalier"]="καβαλάρης"   ;
 translation_table["changeling"]=""   ;
 translation_table["cleric"]="Κληρικός"   ;
 translation_table["dark elf"]="Σκοτεινό Ξωτικό"   ;
@@ -323,9 +328,9 @@ translation_table["gnome"]="γνώμος"   ;
 translation_table["goliath"]="γολιάθ"   ;
 translation_table["grey elf"]="γκρι ελφ"   ;
 translation_table["half-elf"]="μισο-ξωτικό"   ;
-translation_table["halfling"]=""   ;
+translation_table["halfling"]="χαλφλινγκ"   ;
 translation_table["half-orc"]="μισό-ορκ"   ;
-translation_table["high elf"]=""   ;
+translation_table["high elf"]="μισό ελφ"   ;
 translation_table["knight"]="ιππότης"   ;
 translation_table["mage"]="μάγος"   ;
 translation_table["monk"]="μοναχός"   ;
@@ -333,12 +338,12 @@ translation_table["paladin"]=""   ;
 translation_table["priest"]="παπάς"   ;
 translation_table["ranger"]=""   ;
 translation_table["sorcerer"]=""   ;
-translation_table["swordmage"]=""   ;
-translation_table["warmage"]=""   ;
+translation_table["swordmage"]="μάγος σπαθιού"   ;
+translation_table["warmage"]="μάγος πολέμου"   ;
 translation_table["warpriest"]=""   ;
 translation_table["warrior"]="πολεμιστής"   ;
 translation_table["wizard"]=""   ;
-translation_table["wood elf"]=""   ;
+translation_table["wood elf"]="έλφ του ξύλου"   ;
 
 //questgivers = new Array(   ;
 translation_table["an old elf"]=""   ;
@@ -414,7 +419,7 @@ translation_table["pelts"]=""   ;
 translation_table["hides"]=""   ;
 translation_table["roots"]="ρίζες"   ;
 translation_table["herbs"]="βότανα"   ;
-translation_table["bat guano"]=""   ;
+translation_table["bat guano"]="ακαθαρσίες νυχτερίδας"   ;
 
 //deliverables = new Array(   ;
 translation_table["box"]="κουτί"   ;
@@ -450,27 +455,116 @@ translation_table["a swordplay"]="ξιφομαχίας"   ;
 translation_table["a fighting"]="πάλης"   ;
 
 //	if (hasBuff("Book of Aresius")) {
-translation_table["You <span class='heroic'>open the Gate of Hope</span>! You earn <span class='coin'>#coin#</span>."]="<span class='heroic'>Άνοιξες την Πύλη της Ελπίδας</span>! Κέρδισες <span class='coin'>#coin#</span>."   ;
-translation_table["You <span class='heroic'>defeat the Krakhon army</span>! You earn <span class='coin'>#coin#</span>."]="<span class='heroic'>Κέρδισες τον στρατό των Krakhon</span>! Κέρδισες <span class='coin'>#coin#</span>."   ;
-translation_table["You <span class='heroic'>destroy the Chalice of Agony</span>! You earn <span class='coin'>#coin#</span>."]=""   ;
-translation_table["You <span class='heroic'>discover the Elvenpath</span>! You find <span class='coin'>#coin#</span>."]=""    ;
-translation_table["You <span class='heroic'>unchain Arwald's soul</span>! You earn <span class='coin'>#coin#</span>." ]=""   ;
-translation_table["You <span class='heroic'>protect Village Lanterne</span>! You earn <span class='coin'>#coin#</span>."]=""    ;
-translation_table["You <span class='heroic'>vanquish the Blackbird Nation</span>! You earn <span class='coin'>#coin#</span>." ]=""   ;
-translation_table["You <span class='heroic'>face the Thing that Should Not Be</span>! You earn <span class='coin'>#coin#</span>."]=""    ;
+translation_table["You open the Gate of Hope"]="Άνοιξες την Πύλη της Ελπίδας"   ;
+translation_table["You defeat the Krakhon army"]="Κέρδισες τον στρατό των Krakhon</span>!"   ;
+translation_table["You destroy the Chalice of Agony"]="Κατέστρεωψες το Chalice της Αγωνίας"   ;
+translation_table["You discover the Elvenpath"]="Ανακάλυψες το Μονοπάτι των Ξωτικών"    ;
+translation_table["You unchain Arwald's soul" ]="Απελευθέρωσες την ψυχή του Arwald"   ;
+translation_table["You protect Village Lanterne"]="Προστάτεψες το Χωριό Λαντερνέ"    ;
+translation_table["You vanquish the Blackbird Nation" ]="Εξαφάνισες το έθνος του Μπλακμπερντ"   ;
+translation_table["You face the Thing that Should Not Be"]="Αντιμετώπισες το Πραγμα που Δεν Πρέπει Να Υπάρχει"    ;
 
 //	if (hasBuff("Book of Antonidas")) {
-translation_table["You <span class='heroic'>cleanse the world of the Corruption</span>! You earn <span class='coin'>#coin#</span>."]=""    ;
-translation_table["You <span class='heroic'>slay the Ender Dragon</span>! You earn <span class='coin'>#coin#</span>."]="<span class='heroic'>Έσφαξες τον Δράκο Ender</span>! Κέρδισες <span class='coin'>#coin#</span>."    ;
-translation_table["You <span class='heroic'>slay the Czar Dragon</span>! You earn <span class='coin'>#coin#</span>."]="<span class='heroic'>Έσφαξες τον Δράκο Czar</span>! Κέρδισες <span class='coin'>#coin#</span>."    ;
-translation_table["You <span class='heroic'>close the Dark Portal</span>! You earn <span class='coin'>#coin#</span>."]="<span class='heroic'>Έκλεισες την Σκοτεινή Πύλη</span>! Κέρδισες <span class='coin'>#coin#</span>."    ;
-translation_table["You <span class='heroic'>explore Turtle Rock</span>! You find <span class='coin'>#coin#</span>."]="<span class='heroic'>Εξερεύνησες τον Χελωνοβράχο</span>! Βρήκες <span class='coin'>#coin#</span>."    ;
-translation_table["You <span class='heroic'>climb the Endless Tower</span>! You earn <span class='coin'>#coin#</span>."]="<span class='heroic'>Σκαρφάλωσες τον Ατελέιωτο Πύργο</span>! Κέρδισες <span class='coin'>#coin#</span>."    ;
-translation_table["You <span class='heroic'>raid the Veriil dungeon</span>! You earn <span class='coin'>#coin#</span>."]="You <span class='heroic'>raid the Veriil dungeon</span>! Κέρδισες <span class='coin'>#coin#</span>."    ;
-translation_table["You <span class='heroic'>mend the leg of a black mare</span>! You earn <span class='coin'>#coin#</span>."]="You <span class='heroic'>mend the leg of a black mare</span>! Κέρδισες <span class='coin'>#coin#</span>."    ;
+translation_table["You cleanse the world of the Corruption"]="Καθάρισες τον κόσμο της διαφθοράς"    ;
+translation_table["You slay the Ender Dragon"]="Έσφαξες τον Δράκο Ender"    ;
+translation_table["You slay the Czar Dragon"]="Έσφαξες τον Δράκο Czar"    ;
+translation_table["You close the Dark Portal"]="Έκλεισες την Σκοτεινή Πύλη"    ;
+translation_table["You explore Turtle Rock"]="Εξερεύνησες τον Χελωνοβράχο"    ;
+translation_table["You climb the Endless Tower"]="Σκαρφάλωσες τον Ατελέιωτο Πύργο"    ;
+translation_table["You raid the Veriil dungeon"]="Έκανες επιδρομή στο μπουντρούμι του Veriil"    ;
+translation_table["You mend the leg of a black mare"]="Έφτιαξες το πόδι ενός μαύρου mare"    ;
 
 //Adventure
 translation_table["You earn <span class='coin'>#coin#</span>."]="Κέρδισες <span class='coin'>#coin#</span>."   ;
+
+translation_table["<span class='xp'>"]="<span class='xp'>"   ;
+translation_table["You "]="You "  ;
+translation_table["<span class='heroic'>"]="<span class='heroic'>"   ;
+translation_table["</span>! "]="</span>! "   ;
+translation_table["You earn "]="Κέρδισες "   ;
+translation_table["slay "]="Έσφαξες "   ;
+translation_table["slay a "]="Έσφαξες ένα/μία "   ;
+
+//Adventure Quest
+translation_table["win "] = "κέρδισες" ;
+translation_table["unravel "] = "αποκάλυψες" ;
+translation_table["unmask a "] = "ξεσκέπασες έναν/μια " ;
+translation_table["thwart the heinous plans of an evil "] = "" ;
+translation_table["stop the century-old war between "] = "σταμάτησες τον αιώνιο πόλεμο μεταξύ " ;
+translation_table["stop an evil "] = "σταμάτησες έναν/μια κακό " ;
+translation_table["stop an assassination plot against an important "] = "σταμάτησες ένα σχέδιο δολοφονίας ενός σημαντικού " ;
+translation_table["solve the riddle of an eccentric "] = "έλυσες τον γρίφο ενός εκκεντρικού " ;
+translation_table["solve "] = "έλυσες " ;
+translation_table["slice a bush"] = "έκοψες έναν θάμνο " ;
+translation_table["scort "] = "" ;
+translation_table["rescue a "] = "διέσωσες ένα " ;
+translation_table["redeem an old "] = "εξαργύρωσες ένα παλιό " ;
+translation_table["recover an ancient relic from the hands of an evil "] = "" ;
+translation_table["play dice with "] = "έπαιξες ζάρια με " ;
+translation_table["play cards with "] = "έπαιξες κάρτες με " ;
+translation_table["paint a "] = "ζωγράφισες ένα " ;
+translation_table["look inside "] = "κοίταξες μέσα " ;
+translation_table["hunt down a rogue "] = "κηνήγησες έναν κατεργάρη " ;
+translation_table["hunt a "] = "κηνήγησες έναν " ;
+translation_table["help treat a "] = "βοήθησες να θεραπεύσεις ένα(ν) " ;
+translation_table["help stop a "] = "βοήθησες να σταματήσει ένα " ;
+translation_table["help rebuild a "] = "βοήθησες να ξαναχτιστεί ένα " ;
+translation_table["help fend off "] = "βοήθησες να απωθήσουν " ;
+translation_table["help celebrate a "] = "βοήθησες να γιορταστεί ενα " ;
+translation_table["help catch "] = "βοήθησες να πιαστεί " ;
+translation_table["help a young "] = "βοήθησες ένα νέο " ;
+translation_table["help a shy "] = "βοήθησες έναν ντροπαλό " ;
+translation_table["help a novice "] = "βοήθησες έναν αρχάριο " ;
+translation_table["help a housewive cook some "] = "βοήθησες μια νοικοκυρά να μαγειρέψει λίγο " ;
+translation_table["help a "] = "βοήθησες ένα " ;
+translation_table["get some "] = "πήρες μερικά " ;
+translation_table["fix a "] = "έφτιαξες ένα " ;
+translation_table["fish a "] = "ψαρεψες ένα " ;
+translation_table["find the cure for a terrible plague"] = "βρήκες την θεραπεία μια τρομερή αρρώστεια " ;
+translation_table["find a lost "] = "βρήκες τον χαμένο " ;
+translation_table["find a little boy's "] = "βρήκες ενός μικρού παιδιού το/την " ;
+translation_table["find "] = "βρήκες " ;
+translation_table["expose a treacherous "] = "αποκάλυψες ένα προδοτικό " ;
+translation_table["end a dispute between a "] = "έληξες μια διαμάχη μεταξύ " ;
+translation_table["deliver a "] = "παρέδωσες ένα " ;
+translation_table["conquer your fear of "] = "κατέκτησες τον φόβο του " ;
+translation_table["clear an innocent "] = "καθάρισες έναν αθώο " ;
+translation_table["catch a "] = "έπιασες ένα " ;
+translation_table["break a clay pot"] = "έσπασες ένα βάζο από πήλο " ;
+translation_table["bathe a "] = "έκανες μπάνιο σε " ;
+translation_table[" through the wilderness"] = " " ;
+translation_table[" test"] = " δοκίμασες" ;
+translation_table[" slime"] = " γλίτσα" ;
+translation_table[" research a new spell"] = " ερευνησες ένα νέο ξόρκι" ;
+translation_table[" rescue "] = " διάσωση" ;
+translation_table[" reforge an ancient artifact"] = " " ;
+translation_table[" problem"] = " " ;
+translation_table[" pass "] = " " ;
+translation_table[" party"] = " " ;
+translation_table[" overcome "] = " " ;
+translation_table[" lost "] = " " ;
+translation_table[" kill a dire "] = " " ;
+translation_table[" jelly"] = " " ;
+translation_table[" invasion"] = " " ;
+translation_table[" incursion"] = " " ;
+translation_table[" get a girlfriend"] = " " ;
+translation_table[" for a thirsty "] = " " ;
+translation_table[" for a hungry "] = " " ;
+translation_table[" for "] = " " ;
+translation_table[" find inner peace"] = " " ;
+translation_table[" find "] = " " ;
+translation_table[" father"] = " " ;
+translation_table[" familiar"] = " " ;
+translation_table[" death"] = " " ;
+translation_table[" contest"] = " " ;
+translation_table[" confront "] = " " ;
+translation_table[" complete a quest"] = " " ;
+translation_table[" before "] = " " ;
+translation_table[" awkwardness"] = " " ;
+translation_table[" avenge "] = " " ;
+translation_table[" and "] = " " ;
+translation_table[" a "] = " ένα/μια " ;
+
 
 
 
