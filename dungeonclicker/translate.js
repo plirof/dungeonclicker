@@ -1,5 +1,6 @@
 //Translate 
-//v007 -20170219 object
+//v008a -20170219b object
+//v007 -20170219a object
 //v006 -20170212 object
 //v005 -20160608 object
 //v004 -20160608
@@ -207,7 +208,7 @@ translation_table["nightshade"]=""   ;
 translation_table["shadowleap"]=""   ;
 translation_table["shadowthorn"]=""   ;
 translation_table["shark"]="καρχαριο"   ;
-translation_table["spiked"]="αγκαθωτό"   ;
+translation_table["spiked"]="αγκαθωτό-τή"   ;
 translation_table["thornskin"]="αγκαθόδερμο "   ;
 translation_table["thundercry"]=""   ;
 translation_table["vilethorn"]=""   ;
@@ -347,30 +348,30 @@ translation_table["wizard"]=""   ;
 translation_table["wood elf"]="έλφ του ξύλου"   ;
 
 //questgivers = new Array(   ;
-translation_table["an old elf"]=""   ;
-translation_table["an old dwarf"]=""   ;
-translation_table["an old halfling"]=""   ;
-translation_table["an old gnome"]=""   ;
-translation_table["an old man"]=""   ;
-translation_table["an old woman"]=""   ;
-translation_table["an old lady"]=""   ;
-translation_table["an old witch"]=""   ;
-translation_table["a city guard"]=""   ;
+translation_table["an old elf"]="για ένα γέρικο Ελφ"   ;
+translation_table["an old dwarf"]="για έναν γέρικο Νάνο"   ;
+translation_table["an old halfling"]="για ένα γέρικο Χαλφλινγκ"   ;
+translation_table["an old gnome"]="για έναν γέρο Γνώμο"   ;
+translation_table["an old man"]="για έναν γέρο άντρα"   ;
+translation_table["an old woman"]="για μια γριά γυναίκα"   ;
+translation_table["an old lady"]="για μια γριά κυρία"   ;
+translation_table["an old witch"]="για μια γριά μάγισσα"   ;
+translation_table["a city guard"]="για έναν φρουρό της πόλης"   ;
 translation_table["a mage"]=""   ;
 translation_table["a sage"]="ένας σοφός"   ;
-translation_table["a wizard"]=""   ;
-translation_table["a cleric"]=""   ;
-translation_table["a priest"]=""   ;
-translation_table["a merchant"]=""   ;
-translation_table["a fortuneteller"]=""   ;
-translation_table["a gypsy"]=""   ;
-translation_table["a mysterious traveler"]=""   ;
-translation_table["a mysterious man"]=""   ;
-translation_table["a suspicious man"]=""   ;
-translation_table["a mysterious woman"]=""   ;
-translation_table["a suspicious woman"]=""   ;
-translation_table["a noble"]=""   ;
-translation_table["a noble woman"]=""   ;
+translation_table["a wizard"]="για έναν μάγο"   ;
+translation_table["a cleric"]="για έναν κληρικό"   ;
+translation_table["a priest"]="για έναν παπά"   ;
+translation_table["a merchant"]="για έναν έμπορο"   ;
+translation_table["a fortuneteller"]="για έναν μάντη"   ;
+translation_table["a gypsy"]="για έναν τσιγκάνο"   ;
+translation_table["a mysterious traveler"]="για ένα μυστήριο ταξιδιωτη"   ;
+translation_table["a mysterious man"]="για έναν μυστήριο άνδρα"   ;
+translation_table["a suspicious man"]=" για έναν ύποπτο άνδρα"   ;
+translation_table["a mysterious woman"]="για μια μυστήρια γυνάικα"   ;
+translation_table["a suspicious woman"]="για μια ύποπτη γυνάικα"   ;
+translation_table["a noble"]="για έναν ευγενή"   ;
+translation_table["a noble woman"]="για μια ευγενή γυνάικα"   ;
 
 //spellcasters = new Array(   ;
 translation_table["bloodmage"]=""   ;
