@@ -1,6 +1,6 @@
 $(function() {
 	$("#coin-gui").hover(function() {
-		var tooltip = "<h1>Coin</h1><p>Use it to purchase and upgrade stuff.</p>";
+		var tooltip = "<h1>"+translate("Coin")+"</h1><p>"+translate("Use it to purchase and upgrade stuff.")+"</p>";
 		if (dC.coin.length > 15) {
 			tooltip += "<p>"+translate("Magnitude")+": <span class='coin'>10<sup>" + (dC.coin.length - 1) + "</sup><span class='symbol'>"+translate("g")+"</span></span></p>";
 			tooltip += "<p>"+translate("Coin")+": <span class='coin'>" + dC["coin"].addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
@@ -10,13 +10,13 @@ $(function() {
 		hideTooltip();
 	});
 	
-	$("#unlock-gui").hover(function() { showTooltip("<h1>Unlock features</h1><p>Acquire this amount of coin to unlock the next feature. This doesn't expend the money!</p>"); }, function() { hideTooltip(); });
+	$("#unlock-gui").hover(function() { showTooltip("<h1>"+translate("Unlock features")+"</h1><p>"+translate("Acquire this amount of coin to unlock the next feature. This doesn't expend the money!")+"</p>"); }, function() { hideTooltip(); });
 	
 	$("#income-gui").hover(function() {
 		updateIncome();
-		var tooltip = "<h1>Income</h1><p>You earn this much coin every second.</p>";
+		var tooltip = "<h1>"+translate("Income")+"</h1><p>"+translate("You earn this much coin every second.")+"</p>";
 		if (incomeMultiplier > 1) {
-			tooltip += "<p>Income multiplier: <span class='coin'>x" + incomeMultiplier + "</span></p>";
+			tooltip += "<p>"+translate("Income multiplier")+": <span class='coin'>x" + incomeMultiplier + "</span></p>";
 		}
 		if (incomeIsBig) {
 			tooltip += "<p>"+translate("Magnitude")+": <span class='coin'>10<sup>" + (income.length - 1) + "</sup><span class='symbol'>"+translate("g")+"</span></span></p>";
@@ -35,7 +35,7 @@ $(function() {
 	});
 	
 	$("#btnAdventure").hover(function() {
-		var tooltip = "<h1>Adventure!</h1><p>Go on an adventure and earn a small amount of coin.</p>";
+		var tooltip = "<h1>"+translate("Adventure")+"!</h1><p>"+translate("Go on an adventure and earn a small amount of coin.")+"</p>";
 		
 		var extraMultiplierA = 0;
 		var extraMultiplierB = 0;
