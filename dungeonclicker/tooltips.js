@@ -82,7 +82,7 @@ $(function() {
 	
 	$(document).on("mouseenter", "#buildings .element", function() {
 		var key = $(this).attr("data-key");
-		var tooltip = "<h1>" + key + "</h1>";
+		var tooltip = "<h1>" +translate(key) + "</h1>";
 		tooltip += "<p>"+translate("Purchase this building and get coin every second.")+"</p>";
 		tooltip += "<p>"+translate("Income")+": <span class='coin'>" + dCi["buildings"][key]["income"].toString().addCommas() + "<span class='symbol'>"+translate("g")+"</span></span> "+translate("per second each")+"</p>";
 		tooltip += "<p>"+translate("Price")+": <span class='coin'>" + dC["buildings"][key]["p"].toString().addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
@@ -94,7 +94,7 @@ $(function() {
 	
 	$(document).on("mouseenter", "#artifacts .element", function() {
 		var key = $(this).attr("data-key");
-		var tooltip = "<h1>" + key + "</h1>";
+		var tooltip = "<h1>" + translate(key) + "</h1>";
 		tooltip += "<p>" + dCi["artifacts"][key]["text"] + "</p>";
 		tooltip += "<p>"+translate("Price")+": <span class='coin'>" + dCi["artifacts"][key]["price"].addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
 		if (dCi["artifacts"][key]["quote"] != "quote") {
