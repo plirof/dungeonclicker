@@ -1,5 +1,6 @@
 //Translate 
-//v008c2 -20170228 Tooltips.js
+//v008c2 -20170228 buildings.js
+//v008c -20170228 Tooltips.js
 //v008a -20170219b object
 //v007 -20170219a object
 //v006 -20170212 object
@@ -33,18 +34,32 @@ translation_table["You earn this much coin every second."]="Κερδίζεις �
 translation_table["Unlock features"]="Ξεκλείδωσε δυνατότητες"   ;
 translation_table["Acquire this amount of coin to unlock the next feature. This doesn't expend the money!"]="Πρέπει να κερδίσεις αυτό το ποσό για να ξεκλειδώσεις την επόμενη δυνατότητα. This doesn't expend the money!"   ;
 translation_table["Use it to purchase and upgrade stuff."]="Χρησιμοποίησε τα για να αγοράσεις και να αναβαθμήσεις πράγματα."   ;
-translation_table[""]=""   ;
-translation_table[""]=""   ;
 
 
 translation_table["purchase!"]=		"Αγόρασε"   ;
 translation_table["Purchased"]=		"Αγοράστηκε"   ;
 translation_table["purchase!"]=		"Αγοράστηκε!"   ;
+translation_table["purchased!"]=		"Αγοράστηκε!"   ;
+translation_table["Not enough gold!"]="Δεν έχεις αρκετό χρυσό!"   ;
+
+
+//Buildings.js
+
+translation_table["Adventurers meet here, so glasses, plates and furniture are disposable."]="Οι τυχοδιώκτες συναντιούνται εδώ, έτσι τα ποτήρια, τα πιάτα και τα έπιπλα είναι αναλώσιμα."   ;
+translation_table["A garden filled with beautiful trees and even more beautiful dryads."]=""   ;
+translation_table["&laquo;Meat so fresh it still moans-- I mean, mooes!&raquo;<br />&ndash; Khar, local butcher"]=""   ;
+translation_table["It is said that some of the sheep are in fact people, who were victim of failed polimorphing attempts. Wizards, local authorities and the sheep deny this."]=""   ;
+translation_table["&laquo;I bet I can break a granite block with my head.&raquo;<br />&ndash; Last words of dwarven prince Vorfin"]="&laquo;Στοιχηματίζω ότι μπορώ να σπάσω αυτόν τον γρανιτένιο βράχο με το κεφάλι μου..&raquo;<br />&ndash; Τελευταία λόγια του Νάνου Πρίγκιπα Βορφιν"   ;
+translation_table["&laquo;Let me tell you, our wine is the best you have tasted. Here, take a sip. Don't be shy.&raquo;<br />&ndash; Lord Angus, vineyard owner, to himself"]=""   ;
+translation_table["quote"]=""   ;
+
+
+
 //building names
 
 translation_table["Tavern"]=		"Ταβέρνα"   ;
-translation_table["Orchard"]=		"Orchard"   ;
-translation_table["Butcher shop"]=		"Χασάπης"   ;
+translation_table["Orchard"]=		"Δενδρόκηπος"   ;
+translation_table["Butcher shop"]=		"Κρεοπωλείο"   ;
 translation_table["Farm"]=		"Φάρμα"   ;
 translation_table["Granite quarry"]="Λατομείο γρανίτη"   ;
 translation_table["Vineyard"]=		"Αμπέλι"   ;
@@ -54,28 +69,33 @@ translation_table["Archery range"]="Χωρος τοξοβολίας"   ;
 translation_table["Blacksmith"]=		"Σιδηρουργός"   ;
 translation_table["Iron mine"]=		"Ορυχείο Σιδήρου"   ;
 translation_table["Item shop"]=		"Μαγαζί"   ;
-translation_table["Alchemy lab"]=		"Εγραστήριο αλχημιστή"   ;
+translation_table["Alchemy lab"]=		"Εργαστήριο αλχημιστή"   ;
 translation_table["Silver mine"]=		"Ορυχείο Ασημιού"   ;
-translation_table["Martial training hall"]=		"Martial training hall"   ;
-translation_table["Coliseum"]=		"Coliseum"   ;
+translation_table["Martial training hall"]=		"Σχολή πολεμικών τεχνών"   ;
+translation_table["Coliseum"]=		"Κολοσσαίο"   ;
 translation_table["Gold mine"]=		"Χρυσορυχείο"   ;
 translation_table["Rogue academy"]="Ακαδημία κλεφτών"   ;
-translation_table["Airship dock"]=		"Airship dock"   ;
+translation_table["Airship dock"]=		"Αποβάθρα αερόπλοιων"   ;
 translation_table["Gladiator arena"]="Αρένα μονομάχων"   ;
 translation_table["Arcane university"]=		"Πανεπιστήμιο μαγείας"   ;
-translation_table["Magic item emporium"]=		"Magic item emporium"   ;
+translation_table["Magic item emporium"]=		"Μαγαζί μαγικών αντικειμένων"   ;
 translation_table["Mercantile city-state"]=		"Mercantile city-state"   ;
-translation_table["Dragon garden"]="Dragon garden"   ;
-translation_table["Adventurers guild"]="Adventurers guild"   ;
-translation_table["Golemworks"]=		"Golemworks"   ;
+translation_table["Dragon garden"]="Κήπος Δράκων"   ;
+translation_table["Adventurers guild"]="Συντεχνία τυχοδιωκτών"   ;
+translation_table["Golemworks"]=		"Εργοστάσιο Golem"   ;
 translation_table["Astral gate"]=		"Αστρική Πύλη"   ;
-translation_table["Planar fortress-ship"]=		"Planar fortress-ship"   ;
+translation_table["Planar fortress-ship"]=		"Ιπτάμενο φρούριο-πλοίο"   ;
 translation_table["Mana generator"]=		"Mana generator"   ;
-translation_table["Infinite library"]=		"Infinite library"   ;
+translation_table["Infinite library"]=		"Άπειρη βιβλιοθήκη"   ;
 translation_table["Chronospire"]=		"Chronospire"   ;
 translation_table["Soulwell"]=		"Πηγάδι των ψυχών"   ;
 translation_table["Forge of realities"]=		"Forge of realities"   ;
-translation_table["Artificial deification lab"]="Artificial deification lab"   ;
+translation_table["Artificial deification lab"]="Εργαστήριο τεχνητής θεοποίησης"   ;
+translation_table["An evil intent turns its attention to you..."]="Μια κακιά πρόθεση σε καταλαμβάνει..."   ;
+
+
+//artifacts.js
+
 
 //artifactes names
 translation_table["Horseshoe"]=		"Πέταλο"   ;
