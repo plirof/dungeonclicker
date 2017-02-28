@@ -1,4 +1,5 @@
 //Translate 
+//v008c -20170228 Tooltips.js
 //v008a -20170219b object
 //v007 -20170219a object
 //v006 -20170212 object
@@ -15,6 +16,20 @@ function t(word) {
 function translate(word) {
 
 var translation_table={};
+
+//tooltips.js
+translation_table["g"]=" χρυσά"   ; //eg 5g =5gold coins  ###############
+translation_table["Coin"]="Νομίσματα"   ;
+translation_table["Magnitude"]="Μέγεθος"   ;
+translation_table["Purchase this building and get coin every second."]="Αγοράστε αυτό το κτίριο και κερδίστε χρυσά νομίσματα ανα δευτερόλεπτο."   ;
+translation_table["Income"]="Εισόδημα"   ;
+translation_table["Price"]="Τιμή"   ;
+translation_table["per second each"]="ανά δευτερόλεπτο για το καθένα"   ;
+translation_table["Multiplier"]="Πολλαπλασιαστής"   ;
+translation_table[""]=""   ;
+translation_table[""]=""   ;
+translation_table[""]=""   ;
+
 
 
 translation_table["purchase!"]=		"Αγόρασε"   ;
