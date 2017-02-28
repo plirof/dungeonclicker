@@ -1,5 +1,5 @@
 //Translate 
-//v008c -20170228 Tooltips.js
+//v008c2 -20170228 Tooltips.js
 //v008a -20170219b object
 //v007 -20170219a object
 //v006 -20170212 object
@@ -26,10 +26,15 @@ translation_table["Income"]="Εισόδημα"   ;
 translation_table["Price"]="Τιμή"   ;
 translation_table["per second each"]="ανά δευτερόλεπτο για το καθένα"   ;
 translation_table["Multiplier"]="Πολλαπλασιαστής"   ;
+translation_table["Adventure"]="Περιπέτεια"   ;
+translation_table["Go on an adventure and earn a small amount of coin."]="Πήγαινε σε μια περιπέτεια και κέρδισε μερικά χρυσά νομίσματα."   ;
+translation_table["Income multiplier"]="Πολλαπλασιαστής εισοδήματος"   ;
+translation_table["You earn this much coin every second."]="Κερδίζεις τόσα νομίσματα κάθε δευτερόλεπτο."   ;
+translation_table["Unlock features"]="Ξεκλείδωσε δυνατότητες"   ;
+translation_table["Acquire this amount of coin to unlock the next feature. This doesn't expend the money!"]="Πρέπει να κερδίσεις αυτό το ποσό για να ξεκλειδώσεις την επόμενη δυνατότητα. This doesn't expend the money!"   ;
+translation_table["Use it to purchase and upgrade stuff."]="Χρησιμοποίησε τα για να αγοράσεις και να αναβαθμήσεις πράγματα."   ;
 translation_table[""]=""   ;
 translation_table[""]=""   ;
-translation_table[""]=""   ;
-
 
 
 translation_table["purchase!"]=		"Αγόρασε"   ;
