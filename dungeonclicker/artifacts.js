@@ -171,6 +171,6 @@ function updateArtifacts() {
 		else {
 			price = price.addCommas();
 		}
-		$(".element-price", '#artifacts .element[data-key="' + key + '"]').html("<span class='coin'>" + price + "<span class='symbol'>g</span> <span class='purchase'>"+translate("purchase!")+"</span></span>");
+		$(".element-price", '#artifacts .element[data-key="' + key + '"]').html("<span class='coin'>" + price + "<span class='symbol'>"+translate("g")+"</span> <span class='purchase'>"+translate("purchase!")+"</span></span>");
 	}
 }
