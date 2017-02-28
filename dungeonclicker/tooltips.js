@@ -2,8 +2,8 @@ $(function() {
 	$("#coin-gui").hover(function() {
 		var tooltip = "<h1>Coin</h1><p>Use it to purchase and upgrade stuff.</p>";
 		if (dC.coin.length > 15) {
-			tooltip += "<p>Magnitude: <span class='coin'>10<sup>" + (dC.coin.length - 1) + "</sup><span class='symbol'>g</span></span></p>";
-			tooltip += "<p>Coin: <span class='coin'>" + dC["coin"].addCommas() + "<span class='symbol'>g</span></span></p>";
+			tooltip += "<p>"+translate("Magnitude")+": <span class='coin'>10<sup>" + (dC.coin.length - 1) + "</sup><span class='symbol'>"+translate("g")+"</span></span></p>";
+			tooltip += "<p>"+translate("Coin")+": <span class='coin'>" + dC["coin"].addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
 		}
 		showTooltip(tooltip);
 	}, function() {
@@ -19,8 +19,8 @@ $(function() {
 			tooltip += "<p>Income multiplier: <span class='coin'>x" + incomeMultiplier + "</span></p>";
 		}
 		if (incomeIsBig) {
-			tooltip += "<p>Magnitude: <span class='coin'>10<sup>" + (income.length - 1) + "</sup><span class='symbol'>g</span></span></p>";
-			tooltip += "<p>Coin: <span class='coin'>" + income.addCommas() + "<span class='symbol'>g</span></span></p>";
+			tooltip += "<p>"+translate("Magnitude")+": <span class='coin'>10<sup>" + (income.length - 1) + "</sup><span class='symbol'>"+translate("g")+"</span></span></p>";
+			tooltip += "<p>"+translate("Coin")+": <span class='coin'>" + income.addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
 		}
 		showTooltip(tooltip);
 	}, function() {
@@ -61,7 +61,7 @@ $(function() {
 			tooltip += "<p>Bonus coin: ";
 			
 			if (adventureBonusCoin > 0) {
-				tooltip += "<span class='coin'>" + adventureBonusCoin + "<span class='symbol'>g</span></span>";
+				tooltip += "<span class='coin'>" + adventureBonusCoin + "<span class='symbol'>"+translate("g")+"</span></span>";
 			}
 			if (adventureBonusCoin > 0 && extraMultiplierA > 0) {
 				tooltip += " and ";
@@ -73,7 +73,7 @@ $(function() {
 			tooltip += "</p>";
 		}
 		
-		if (adventureMultiplier > 1) tooltip += "<p>Multiplier: <span class='coin'>x" + adventureMultiplier + "</span></p>";
+		if (adventureMultiplier > 1) tooltip += "<p>"+translate("Multiplier")+": <span class='coin'>x" + adventureMultiplier + "</span></p>";
 		
 		showTooltip(tooltip);
 	}, function() {
@@ -83,9 +83,9 @@ $(function() {
 	$(document).on("mouseenter", "#buildings .element", function() {
 		var key = $(this).attr("data-key");
 		var tooltip = "<h1>" + key + "</h1>";
-		tooltip += "<p>Purchase this building and get coin every second.</p>";
-		tooltip += "<p>Income: <span class='coin'>" + dCi["buildings"][key]["income"].toString().addCommas() + "<span class='symbol'>g</span></span> per second each</p>";
-		tooltip += "<p>Price: <span class='coin'>" + dC["buildings"][key]["p"].toString().addCommas() + "<span class='symbol'>g</span></span></p>";
+		tooltip += "<p>"+translate("Purchase this building and get coin every second.")+"</p>";
+		tooltip += "<p>"+translate("Income")+": <span class='coin'>" + dCi["buildings"][key]["income"].toString().addCommas() + "<span class='symbol'>"+translate("g")+"</span></span> "+translate("per second each")+"</p>";
+		tooltip += "<p>"+translate("Price")+": <span class='coin'>" + dC["buildings"][key]["p"].toString().addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
 		if (dCi["buildings"][key]["quote"] != "quote") {
 			tooltip += "<p><em>" + dCi["buildings"][key]["quote"] + "</em></p>";
 		}
@@ -96,7 +96,7 @@ $(function() {
 		var key = $(this).attr("data-key");
 		var tooltip = "<h1>" + key + "</h1>";
 		tooltip += "<p>" + dCi["artifacts"][key]["text"] + "</p>";
-		tooltip += "<p>Price: <span class='coin'>" + dCi["artifacts"][key]["price"].addCommas() + "<span class='symbol'>g</span></span></p>";
+		tooltip += "<p>"+translate("Price")+": <span class='coin'>" + dCi["artifacts"][key]["price"].addCommas() + "<span class='symbol'>"+translate("g")+"</span></span></p>";
 		if (dCi["artifacts"][key]["quote"] != "quote") {
 			tooltip += "<p><em>" + dCi["artifacts"][key]["quote"] + "</em></p>";
 		}
