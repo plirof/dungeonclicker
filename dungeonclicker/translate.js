@@ -93,50 +93,6 @@ translation_table["Artificial deification lab"]="Εργαστήριο τεχνη
 translation_table["An evil intent turns its attention to you..."]="Μια κακιά πρόθεση σε καταλαμβάνει..."   ;
 
 
-//artifacts.js
-
-
-//artifactes names
-translation_table["Horseshoe"]=		"Πέταλο"   ;
-translation_table["Rabbit's Foot"]="Λαγοπόδαρο"   ;
-translation_table["Nazar"]=""   ;
-translation_table["Lucky Hand"]=		"Τυχερό χέρι"   ;
-translation_table["Coin Charm"]=""   ;
-translation_table["Golden Rose Clover"]=		""   ;
-translation_table["Animal Messenger"]=		""   ;
-
-translation_table["Alchemist's Kit"]=		"Κιτ του αλχιμιστή"   ;
-translation_table["Philosophic Mercury"]="Philosophic Mercury"   ;
-translation_table["Philosopher's Stone"]="Φιλοσοφική λίθος"   ;
-
-translation_table["Verdant Bead of the Windwalker"]=""   ;
-translation_table["Amber Bead of the Sandwalker"]=		""   ;
-translation_table["Crimson Bead of the Flamewalker"]=""   ;
-translation_table["Azure Bead of the Rainwalker"]=		""   ;
-
-translation_table["Boots of Alacrity"]=		""   ;
-
-translation_table["Book of Aresius"]=		""   ;
-translation_table["Book of Antonidas"]=		""   ;
-
-translation_table["Brooch of the Prosperous Adventurer"]=		""   ;
-translation_table["Pendant of the Prosperous Adventurer"]=		""   ;
-translation_table["Necklace of the Prosperous Adventurer"]=		""   ;
-translation_table["Gloves of the Prosperous Adventurer"]=		""   ;
-translation_table["Cape of the Prosperous Adventurer"]=		""   ;
-translation_table["Talon of the Harpy"]=""   ;
-translation_table["Eye of the Cockatrice"]=		""   ;
-translation_table["Sting of the Wyvern"]=		""   ;
-translation_table["Claw of the Sphynx"]=""   ;
-translation_table["Left Horn of Mammorus"]=		""   ;
-translation_table["Right Horn of Mammorus"]=		""   ;
-translation_table["Scale of the Drake"]=		""   ;
-translation_table["Spike of the Basilisk"]=		""   ;
-translation_table["Tooth of the Manticore"]=		""   ;
-translation_table["Heart of the Kraken"]=		""   ;
-translation_table["Left Tusk of the Tarrasque"]=""   ;
-translation_table["Right Tusk of the Tarrasque"]=		""   ;
-translation_table["Ring of Luck"]=		""   ;
 
 //building descriptions
 
@@ -606,6 +562,81 @@ translation_table[" avenge "] = " " ;
 translation_table[" and "] = " " ;
 translation_table[" a "] = " ένα/μια " ;
 
+
+
+//artifacts.js
+
+
+//artifacts names
+translation_table["Horseshoe"]=		"Πέταλο"   ;
+translation_table["Rabbit's Foot"]="Λαγοπόδαρο"   ;
+translation_table["Nazar"]=""   ;
+translation_table["Lucky Hand"]=		"Τυχερό χέρι"   ;
+translation_table["Coin Charm"]=""   ;
+translation_table["Golden Rose Clover"]=		""   ;
+translation_table["Animal Messenger"]=		""   ;
+
+translation_table["Alchemist's Kit"]=		"Κιτ του αλχιμιστή"   ;
+translation_table["Philosophic Mercury"]="Philosophic Mercury"   ;
+translation_table["Philosopher's Stone"]="Φιλοσοφική λίθος"   ;
+
+translation_table["Verdant Bead of the Windwalker"]=""   ;
+translation_table["Amber Bead of the Sandwalker"]=		""   ;
+translation_table["Crimson Bead of the Flamewalker"]=""   ;
+translation_table["Azure Bead of the Rainwalker"]=		""   ;
+
+translation_table["Boots of Alacrity"]=		""   ;
+
+translation_table["Book of Aresius"]=		""   ;
+translation_table["Book of Antonidas"]=		""   ;
+
+translation_table["Brooch of the Prosperous Adventurer"]=		""   ;
+translation_table["Pendant of the Prosperous Adventurer"]=		""   ;
+translation_table["Necklace of the Prosperous Adventurer"]=		""   ;
+translation_table["Gloves of the Prosperous Adventurer"]=		""   ;
+translation_table["Cape of the Prosperous Adventurer"]=		""   ;
+translation_table["Talon of the Harpy"]=""   ;
+translation_table["Eye of the Cockatrice"]=		""   ;
+translation_table["Sting of the Wyvern"]=		""   ;
+translation_table["Claw of the Sphynx"]=""   ;
+translation_table["Left Horn of Mammorus"]=		""   ;
+translation_table["Right Horn of Mammorus"]=		""   ;
+translation_table["Scale of the Drake"]=		""   ;
+translation_table["Spike of the Basilisk"]=		""   ;
+translation_table["Tooth of the Manticore"]=		""   ;
+translation_table["Heart of the Kraken"]=		""   ;
+translation_table["Left Tusk of the Tarrasque"]=""   ;
+translation_table["Right Tusk of the Tarrasque"]=		""   ;
+translation_table["Ring of Luck"]=		""   ;
+
+
+
+translation_table["Allows you to buy buildings and artifacts directly from the Adventure panel."]="" ;
+translation_table["Each time you click on the <em>adventure!</em> button, you go on an adventure twice."]="" ;
+translation_table["&laquo;Remember, proud brothers: everything is possible when you let the mystic power of the Dragonflame burn in your heart.&raquo;<br />&ndash; Aresius"]="" ; 
+translation_table["&laquo;This is not for idle hands, nor prying eyes. Information must not be lost. But it must not be used unwisely.&raquo;<br />&ndash; Archmage Antonidas"]="" ; 
+translation_table["This ancient golden ring found its way to the finger of many a successful adventurer."]="" ; 
+translation_table["This fine silken cape has a small embroidery hidden on the inside that reads: \"Money goes where money is\"."]="" ;
+translation_table["This golden five-leaf clover trinket is said to bring luck and prosperity to its owner."]="" ; 
+translation_table["This item is yet to be identified."]="" ; 
+translation_table["This magical substance allows you to slowly and laboriously turn small quantities of lead into gold. The process can take up to 1 year."]="" ;
+translation_table["This mystical substance allows you to instantly turn any quantity of lead into gold. It also makes you immortal."]="" ; 
+translation_table["This set of primitive alchemy tools allows you to turn small quantities of lead into silver."]="" ; 
+translation_table["This small magical beast carries messages between you and your agents through long distances."]="" ; 
+translation_table["This tattered pair of dragonhide boots allows its wearer to cross long distances in the blink of an eye."]="" ; 
+
+
+translation_table["When you go on an adventure you earn 1 extra coin."]="" ;
+translation_table["When you go on an adventure you earn extra coin equal to"]="" ;
+translation_table["of your current income, rounded up."]="" ;
+translation_table[" to "]="" ;
+translation_table["When you go on an adventure you earn"]="" ;
+translation_table["extra coin."]="" ;
+translation_table[" equal to 0.5% to 1% of your current income, rounded up."]="" ;
+translation_table[" equal to 1% to 2.5% of your current income, rounded up."]="" ;
+translation_table["You unlock 8 heroic adventures. Heroic adventures are extremely rare, but they give 10 times more coin."]="" ;
+translation_table["Increases your income by "]="" ;
+translation_table["Doubles your income."]="" ;
 
 
 
