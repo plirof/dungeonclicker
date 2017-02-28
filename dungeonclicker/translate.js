@@ -1,6 +1,5 @@
 //Translate 
-//v008c2 -20170228 buildings.js
-//v008c -20170228 Tooltips.js
+//v008c2 -20170228 Tooltips.js
 //v008a -20170219b object
 //v007 -20170219a object
 //v006 -20170212 object
@@ -38,7 +37,7 @@ translation_table["Use it to purchase and upgrade stuff."]="Χρησιμοποί
 
 translation_table["purchase!"]=		"Αγόρασε"   ;
 translation_table["Purchased"]=		"Αγοράστηκε"   ;
-translation_table["purchase!"]=		"Αγοράστηκε!"   ;
+//translation_table["purchase!"]=		"Αγοράστηκε!"   ;
 translation_table["purchased!"]=		"Αγοράστηκε!"   ;
 translation_table["Not enough gold!"]="Δεν έχεις αρκετό χρυσό!"   ;
 
@@ -79,7 +78,7 @@ translation_table["Airship dock"]=		"Αποβάθρα αερόπλοιων"   ;
 translation_table["Gladiator arena"]="Αρένα μονομάχων"   ;
 translation_table["Arcane university"]=		"Πανεπιστήμιο μαγείας"   ;
 translation_table["Magic item emporium"]=		"Μαγαζί μαγικών αντικειμένων"   ;
-translation_table["Mercantile city-state"]=		"Mercantile city-state"   ;
+translation_table["Mercantile city-state"]=		"Εμπορική πόλη-κράτος"   ;
 translation_table["Dragon garden"]="Κήπος Δράκων"   ;
 translation_table["Adventurers guild"]="Συντεχνία τυχοδιωκτών"   ;
 translation_table["Golemworks"]=		"Εργοστάσιο Golem"   ;
@@ -216,18 +215,18 @@ translation_table["seer"]=""   ;
 translation_table["sentinel"]=""   ;
 translation_table["shadowblade"]=""   ;
 translation_table["shaman"]="σαμαν"   ;
-translation_table["sorcerer"]=""   ;
+//translation_table["sorcerer"]=""   ;
 translation_table["spiritualist"]=""   ;
 translation_table["stalker"]=""   ;
 translation_table["thief"]="κλέφτης"   ;
 translation_table["warchanter"]=""   ;
-translation_table["warlock"]=""   ;
+//translation_table["warlock"]=""   ;
 translation_table["warlord"]="πολέμαρχος"   ;
 translation_table["warmaster"]=""   ;
 translation_table["warpriest"]="πολεμικό ιερέα"   ;
-translation_table["warrior"]="πολεμιστής"   ;
+//translation_table["warrior"]="πολεμιστής"   ;
 translation_table["witch"]="μάγισσα"   ;
-translation_table["wizard"]=""   ;
+//translation_table["wizard"]=""   ;
 
 //prefixes = new Array(   ;
 translation_table["blade"]="λεπίδο"   ;
@@ -379,7 +378,7 @@ translation_table["monk"]="μοναχός"   ;
 translation_table["paladin"]=""   ;
 translation_table["priest"]="παπάς"   ;
 translation_table["ranger"]="φύλακας"   ;
-translation_table["sorcerer"]=""   ;
+//translation_table["sorcerer"]=""   ;
 translation_table["swordmage"]="μάγος σπαθιού"   ;
 translation_table["warmage"]="μάγος πολέμου"   ;
 translation_table["warpriest"]=""   ;
@@ -419,7 +418,7 @@ translation_table["mage"]=""   ;
 translation_table["sorcerer"]=""   ;
 translation_table["warlock"]=""   ;
 translation_table["witch"]=""   ;
-translation_table["wizard"]=""   ;
+//translation_table["wizard"]=""   ;
 
 //drinks = new Array(   ;
 translation_table["ale"]=""   ;
@@ -528,8 +527,8 @@ translation_table["slay "]="Έσφαξες "   ;
 translation_table["slay a "]="Έσφαξες ένα/μία "   ;
 
 //Adventure Quest
-translation_table["win "] = "κέρδισες" ;
-translation_table["unravel "] = "αποκάλυψες" ;
+translation_table["win "] = "κέρδισες " ;
+translation_table["unravel "] = "αποκάλυψες " ;
 translation_table["unmask a "] = "ξεσκέπασες έναν/μια " ;
 translation_table["thwart the heinous plans of an evil "] = "Αντέκρουσες τα σατανικά σχέδια του/τής σατανικού " ;
 translation_table["stop the century-old war between "] = "σταμάτησες τον αιώνιο πόλεμο μεταξύ " ;
@@ -537,7 +536,7 @@ translation_table["stop an evil "] = "σταμάτησες έναν/μια κα�
 translation_table["stop an assassination plot against an important "] = "σταμάτησες ένα σχέδιο δολοφονίας ενός σημαντικού " ;
 translation_table["solve the riddle of an eccentric "] = "έλυσες τον γρίφο ενός εκκεντρικού " ;
 translation_table["solve "] = "έλυσες " ;
-translation_table["slice a bush"] = "έκοψες έναν θάμνο " ;
+translation_table["slice a bush"] = "έκοψες έναν θάμνο" ;
 translation_table["scort "] = "" ;
 translation_table["rescue a "] = "διέσωσες ένα " ;
 translation_table["redeem an old "] = "εξαργύρωσες ένα παλιό " ;
@@ -584,15 +583,15 @@ translation_table[" problem"] = " πρόβλημα" ;
 translation_table[" pass "] = " " ;
 translation_table[" party"] = " ομάδα" ;
 translation_table[" overcome "] = " ξέπέρασες" ;
-translation_table[" lost "] = " " ;
-translation_table[" kill a dire "] = " " ;
-translation_table[" jelly"] = " " ;
+translation_table[" lost "] = " έχασες" ;
+translation_table[" kill a dire "] = " σκότωσες ένα τρομακτικό" ;
+translation_table[" jelly"] = " ζελέ" ;
 translation_table[" invasion"] = " " ;
 translation_table[" incursion"] = " " ;
 translation_table[" get a girlfriend"] = " " ;
 translation_table[" for a thirsty "] = " " ;
 translation_table[" for a hungry "] = " " ;
-translation_table[" for "] = " " ;
+translation_table[" for "] = " γιά" ;
 translation_table[" find inner peace"] = " " ;
 translation_table[" find "] = " " ;
 translation_table[" father"] = " " ;
