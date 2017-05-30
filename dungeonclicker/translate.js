@@ -1,4 +1,5 @@
 //Translate 
+//v008c4 -20170530 translate.js for childplay
 //v008c2 -20170228 Tooltips.js
 //v008a -20170219b object
 //v007 -20170219a object
@@ -261,10 +262,10 @@ translation_table["raccoon"]="ρακούν"   ;
 //fears = new Array(   ;
 translation_table["being eaten by"]="να φαγωθείς από"   ;
 translation_table["being bitten by"]="να δαγκωθείς από"   ;
-translation_table["being killed by"]="να σκοτωθείς από"   ;
+translation_table["being killed by"]="να σε τσιμπήσει"   ;
 translation_table["being licked by"]="να σε γλύψει"   ;
 translation_table["being alone with"]="να μένεις μόνος με"   ;
-translation_table["being watched by"]="να σε παρακολουουν"   ;
+translation_table["being watched by"]="να σε παρακολουθουν"   ;
 
 //pets = new Array(   ;
 translation_table["cat"]="γάτα"   ;
@@ -331,7 +332,7 @@ translation_table["high elf"]="μισό ελφ"   ;
 translation_table["knight"]="ιππότης"   ;
 translation_table["mage"]="μάγος"   ;
 translation_table["monk"]="μοναχός"   ;
-translation_table["paladin"]=""   ;
+translation_table["paladin"]="σταυροφόρος"   ;
 translation_table["priest"]="παπάς"   ;
 translation_table["ranger"]="φύλακας"   ;
 //translation_table["sorcerer"]=""   ;
@@ -339,7 +340,7 @@ translation_table["swordmage"]="μάγος σπαθιού"   ;
 translation_table["warmage"]="μάγος πολέμου"   ;
 translation_table["warpriest"]=""   ;
 translation_table["warrior"]="πολεμιστής"   ;
-translation_table["wizard"]=""   ;
+translation_table["wizard"]="μάγος"   ;
 translation_table["wood elf"]="έλφ του ξύλου"   ;
 
 //questgivers = new Array(   ;
@@ -352,7 +353,7 @@ translation_table["an old woman"]="για μια γριά γυναίκα"   ;
 translation_table["an old lady"]="για μια γριά κυρία"   ;
 translation_table["an old witch"]="για μια γριά μάγισσα"   ;
 translation_table["a city guard"]="για έναν φρουρό της πόλης"   ;
-translation_table["a mage"]=""   ;
+translation_table["a mage"]="άνα μάγο"   ;
 translation_table["a sage"]="ένας σοφός"   ;
 translation_table["a wizard"]="για έναν μάγο"   ;
 translation_table["a cleric"]="για έναν κληρικό"   ;
@@ -480,7 +481,7 @@ translation_table["<span class='heroic'>"]="<span class='heroic'>"   ;
 translation_table["</span>! "]="</span>! "   ;
 translation_table["You earn "]="Κέρδισες "   ;
 translation_table["slay "]="Έπαιξες με  "   ;
-translation_table["slay a "]="Έπαιξες με  ένα/μία "   ;
+translation_table["slay a "]="Έπαιξες με ένα/μία "   ;
 
 //Adventure Quest
 translation_table["win "] = "κέρδισες " ;
