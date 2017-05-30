@@ -18,16 +18,16 @@ function translate(word) {
 var translation_table={};
 
 //tooltips.js
-translation_table["g"]=" χρυσά"   ; //eg 5g =5gold coins  ###############
-translation_table["Coin"]="Νομίσματα"   ;
+translation_table["g"]=" παιχνίδια"   ; //eg 5g =5gold coins  ###############
+translation_table["Coin"]="Παιχνίδια"   ;
 translation_table["Magnitude"]="Μέγεθος"   ;
 translation_table["Purchase this building and get coin every second."]="Αγοράστε αυτό το κτίριο και κερδίστε χρυσά νομίσματα ανα δευτερόλεπτο."   ;
 translation_table["Income"]="Εισόδημα"   ;
-translation_table["Price"]="Τιμή"   ;
+translation_table["Price"]="Κόστος"   ;
 translation_table["per second each"]="ανά δευτερόλεπτο για το καθένα"   ;
 translation_table["Multiplier"]="Πολλαπλασιαστής"   ;
 translation_table["Adventure"]="Περιπέτεια"   ;
-translation_table["Go on an adventure and earn a small amount of coin."]="Πήγαινε σε μια περιπέτεια και κέρδισε μερικά χρυσά νομίσματα."   ;
+translation_table["Go on an adventure and earn a small amount of coin."]="Πήγαινε σε μια περιπέτεια και κέρδισε μερικά ακόμα παιχνίδια."   ;
 translation_table["Income multiplier"]="Πολλαπλασιαστής εισοδήματος"   ;
 translation_table["You earn this much coin every second."]="Κερδίζεις τόσα νομίσματα κάθε δευτερόλεπτο."   ;
 translation_table["Unlock features"]="Ξεκλείδωσε δυνατότητες"   ;
@@ -39,16 +39,16 @@ translation_table["purchase!"]=		"Αγόρασε"   ;
 translation_table["Purchased"]=		"Αγοράστηκε"   ;
 //translation_table["purchase!"]=		"Αγοράστηκε!"   ;
 translation_table["purchased!"]=		"Αγοράστηκε!"   ;
-translation_table["Not enough gold!"]="Δεν έχεις αρκετό χρυσό!"   ;
+translation_table["Not enough gold!"]="Δεν έχεις αρκετά παιχνίδια!"   ;
 
 
 //Buildings.js
 
-translation_table["Adventurers meet here, so glasses, plates and furniture are disposable."]="Οι τυχοδιώκτες συναντιούνται εδώ, έτσι τα ποτήρια, τα πιάτα και τα έπιπλα είναι αναλώσιμα."   ;
+translation_table["Adventurers meet here, so glasses, plates and furniture are disposable."]="Τα παιδία συναντιούνται εδώ, έτσι τα ποτήρια, τα πιάτα και τα έπιπλα είναι αναλώσιμα."   ;
 translation_table["A garden filled with beautiful trees and even more beautiful dryads."]=""   ;
 translation_table["&laquo;Meat so fresh it still moans-- I mean, mooes!&raquo;<br />&ndash; Khar, local butcher"]=""   ;
 translation_table["It is said that some of the sheep are in fact people, who were victim of failed polimorphing attempts. Wizards, local authorities and the sheep deny this."]=""   ;
-translation_table["&laquo;I bet I can break a granite block with my head.&raquo;<br />&ndash; Last words of dwarven prince Vorfin"]="&laquo;Στοιχηματίζω ότι μπορώ να σπάσω αυτόν τον γρανιτένιο βράχο με το κεφάλι μου..&raquo;<br />&ndash; Τελευταία λόγια του Νάνου Πρίγκιπα Βορφιν"   ;
+translation_table["&laquo;I bet I can break a granite block with my head.&raquo;<br />&ndash; Last words of dwarven prince Vorfin"]="&laquo;Στοιχηματίζω ότι μπορώ να σπάσω αυτόν τον γρανιτένιο βράχο με πλαστικό σφυρί μου..&raquo;<br />&ndash; Τελευταία λόγια του Νάνου Πρίγκιπα Βορφιν"   ;
 translation_table["&laquo;Let me tell you, our wine is the best you have tasted. Here, take a sip. Don't be shy.&raquo;<br />&ndash; Lord Angus, vineyard owner, to himself"]=""   ;
 translation_table["quote"]=""   ;
 
@@ -56,40 +56,40 @@ translation_table["quote"]=""   ;
 
 //building names
 
-translation_table["Tavern"]=		"Ταβέρνα"   ;
-translation_table["Orchard"]=		"Δενδρόκηπος"   ;
-translation_table["Butcher shop"]=		"Κρεοπωλείο"   ;
-translation_table["Farm"]=		"Φάρμα"   ;
-translation_table["Granite quarry"]="Λατομείο γρανίτη"   ;
+translation_table["Tavern"]=		"Πλαστικό Τραπέζι "   ;
+translation_table["Orchard"]=		"Τράπουλα"   ;
+translation_table["Butcher shop"]=		"Γκρινιάρης"   ;
+translation_table["Farm"]=		"Μονόπολη"   ;
+translation_table["Granite quarry"]="Uno"   ;
 translation_table["Vineyard"]=		"Αμπέλι"   ;
 translation_table["Inn"]=		"Πανδοχείο"   ;
-translation_table["Copper mine"]=		"Ορυχείο Χαλκού"   ;
+translation_table["Copper mine"]=		"Χώρος με Lego"   ;
 translation_table["Archery range"]="Χωρος τοξοβολίας"   ;
 translation_table["Blacksmith"]=		"Σιδηρουργός"   ;
 translation_table["Iron mine"]=		"Ορυχείο Σιδήρου"   ;
-translation_table["Item shop"]=		"Μαγαζί"   ;
-translation_table["Alchemy lab"]=		"Εργαστήριο αλχημιστή"   ;
+translation_table["Item shop"]=		"Μαγαζί παιχνιδιών"   ;
+translation_table["Alchemy lab"]=		"Εργαστήριο παιχνιδιών"   ;
 translation_table["Silver mine"]=		"Ορυχείο Ασημιού"   ;
 translation_table["Martial training hall"]=		"Σχολή πολεμικών τεχνών"   ;
 translation_table["Coliseum"]=		"Κολοσσαίο"   ;
 translation_table["Gold mine"]=		"Χρυσορυχείο"   ;
-translation_table["Rogue academy"]="Ακαδημία κλεφτών"   ;
+translation_table["Rogue academy"]="Ακαδημία παιχτών"   ;
 translation_table["Airship dock"]=		"Αποβάθρα αερόπλοιων"   ;
-translation_table["Gladiator arena"]="Αρένα μονομάχων"   ;
+translation_table["Gladiator arena"]="Διόροφος παιδότοπός"   ;
 translation_table["Arcane university"]=		"Πανεπιστήμιο μαγείας"   ;
 translation_table["Magic item emporium"]=		"Μαγαζί μαγικών αντικειμένων"   ;
-translation_table["Mercantile city-state"]=		"Εμπορική πόλη-κράτος"   ;
+translation_table["Mercantile city-state"]=		"Παιχνιδούπολη"   ;
 translation_table["Dragon garden"]="Κήπος Δράκων"   ;
-translation_table["Adventurers guild"]="Συντεχνία τυχοδιωκτών"   ;
+translation_table["Adventurers guild"]="Συντεχνία παιχνιδοποιών"   ;
 translation_table["Golemworks"]=		"Εργοστάσιο Golem"   ;
 translation_table["Astral gate"]=		"Αστρική Πύλη"   ;
-translation_table["Planar fortress-ship"]=		"Ιπτάμενο φρούριο-πλοίο"   ;
+translation_table["Planar fortress-ship"]=		"Ιπτάμενο πλοίο με παιχνίδια"   ;
 translation_table["Mana generator"]=		"Mana generator"   ;
 translation_table["Infinite library"]=		"Άπειρη βιβλιοθήκη"   ;
 translation_table["Chronospire"]=		"Chronospire"   ;
-translation_table["Soulwell"]=		"Πηγάδι των ψυχών"   ;
+translation_table["Soulwell"]=		"Πηγάδι των ευχών"   ;
 translation_table["Forge of realities"]=		"Forge of realities"   ;
-translation_table["Artificial deification lab"]="Εργαστήριο τεχνητής θεοποίησης"   ;
+translation_table["Artificial deification lab"]="Εργαστήριο Θε'ι'κων παιχνιδιών"   ;
 translation_table["An evil intent turns its attention to you..."]="Μια κακιά πρόθεση σε καταλαμβάνει..."   ;
 
 
