@@ -187,8 +187,8 @@ translation_table["witch"]="μάγισσα"   ;
 //prefixes = new Array(   ;
 translation_table["blade"]="λεπίδο"   ;
 translation_table["blink"]=""   ;
-translation_table["blood"]="αίμα" ;
-translation_table["carnivorous"]="σαρκοβόρο"   ;
+translation_table["blood"]="πορτοκαλάδα" ;
+translation_table["carnivorous"]="πεινασμένο"   ;
 translation_table["darkspire"]=""   ;
 translation_table["dire"]="τρομερός "   ;
 translation_table["dragon"]="δράκο"   ;
@@ -377,15 +377,15 @@ translation_table["witch"]=""   ;
 //translation_table["wizard"]=""   ;
 
 //drinks = new Array(   ;
-translation_table["ale"]=""   ;
-translation_table["beer"]="μπύρα"   ;
-translation_table["cider"]=""   ;
+translation_table["ale"]="Πορτοκαλάδα"   ;
+translation_table["beer"]="Λεμονάδα"   ;
+translation_table["cider"]="μανταρινάδα"   ;
 translation_table["juice"]="χυμός"   ;
-translation_table["mead"]=""   ;
+translation_table["mead"]="καρπουζάδα"   ;
 translation_table["milk"]="γάλα"   ;
 translation_table["tea"]="τσαί"   ;
 translation_table["water"]="νερό"   ;
-translation_table["wine"]="κρασί"   ;
+translation_table["wine"]="σοκολάτα"   ;
 
 //food = new Array(   ;
 translation_table["porridge"]="κουάκερ"   ;
@@ -463,13 +463,13 @@ translation_table["You face the Thing that Should Not Be"]="Αντιμετώπι
 
 //	if (hasBuff("Book of Antonidas")) {
 translation_table["You cleanse the world of the Corruption"]="Καθάρισες τον κόσμο της διαφθοράς"    ;
-translation_table["You slay the Ender Dragon"]="Έσφαξες τον Δράκο Ender"    ;
-translation_table["You slay the Czar Dragon"]="Έσφαξες τον Δράκο Czar"    ;
+translation_table["You slay the Ender Dragon"]="Έπαιξες με τον Δράκο Ender"    ;
+translation_table["You slay the Czar Dragon"]="Έπαιξες με τον Δράκο Czar"    ;
 translation_table["You close the Dark Portal"]="Έκλεισες την Σκοτεινή Πύλη"    ;
 translation_table["You explore Turtle Rock"]="Εξερεύνησες τον Χελωνοβράχο"    ;
 translation_table["You climb the Endless Tower"]="Σκαρφάλωσες τον Ατελέιωτο Πύργο"    ;
 translation_table["You raid the Veriil dungeon"]="Έκανες επιδρομή στο μπουντρούμι του Veriil"    ;
-translation_table["You mend the leg of a black mare"]="Έφτιαξες το πόδι ενός μαύρου mare"    ;
+translation_table["You mend the leg of a black mare"]="Έφτιαξες το πόδι ενός τραπεζιού με παιχνίδια"    ;
 
 //Adventure
 translation_table["You earn <span class='coin'>#coin#</span>."]="Κέρδισες <span class='coin'>#coin#</span>."   ;
@@ -479,8 +479,8 @@ translation_table["You "]="You "  ;
 translation_table["<span class='heroic'>"]="<span class='heroic'>"   ;
 translation_table["</span>! "]="</span>! "   ;
 translation_table["You earn "]="Κέρδισες "   ;
-translation_table["slay "]="Έσφαξες "   ;
-translation_table["slay a "]="Έσφαξες ένα/μία "   ;
+translation_table["slay "]="Έπαιξες με  "   ;
+translation_table["slay a "]="Έπαιξες με  ένα/μία "   ;
 
 //Adventure Quest
 translation_table["win "] = "κέρδισες " ;
@@ -555,11 +555,11 @@ translation_table[" familiar"] = " " ;
 translation_table[" death"] = " " ;
 translation_table[" contest"] = " " ;
 translation_table[" confront "] = " " ;
-translation_table[" complete a quest"] = " " ;
-translation_table[" before "] = " " ;
+translation_table[" complete a quest"] = " εκπλήρωσες μια αποστολή " ;
+translation_table[" before "] = " πριν " ;
 translation_table[" awkwardness"] = " " ;
 translation_table[" avenge "] = " " ;
-translation_table[" and "] = " " ;
+translation_table[" and "] = " και " ;
 translation_table[" a "] = " ένα/μια " ;
 
 
